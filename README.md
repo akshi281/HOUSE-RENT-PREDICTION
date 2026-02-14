@@ -65,7 +65,7 @@ Technologies Used:
 
 → Seaborn
 
-→ Jupyter Notebook / Google Colab
+→ Jupyter Notebook / Google Colab / VS code
 
 → Streamlit / Flask (if deployed)
 
