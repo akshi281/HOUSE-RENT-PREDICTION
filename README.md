@@ -1,82 +1,73 @@
-House Price Prediction using Machine Learning
+# House Price Prediction
 
-Project Overview
+### Project Overview
 
-→ House Price Prediction is a Machine Learning project that predicts the price of a house based on various features such as area, number of bedrooms, bathrooms, location, and other property details.
+→ House Price Prediction is a machine learning project that predicts the price of a house based on various features such as location, area, number of bedrooms, bathrooms, and other property details.
 
-→ The goal of this project is to build a predictive model that estimates house prices accurately to help buyers, sellers, and real estate businesses make informed decisions.
+→ This project helps buyers and sellers estimate property prices using data-driven insights.
 
-Problem Statement:
+### Objective
 
-Real estate prices vary depending on multiple factors.
-Manually estimating the correct price is difficult and often inaccurate.
+The main objective of this project is to:
 
-This project uses Machine Learning algorithms to:
+→  Analyze housing dataset
 
-→ Analyze historical housing data
+→  Identify important features affecting house prices
 
-→ Identify important price-influencing factors
+→  Build a predictive model
 
-→ Predict house prices with high accuracy
+→  Predict house prices accurately
 
-Machine Learning Workflow:
+### Technologies Used
 
-→ Data Collection
+→  Python
 
-→ Data Cleaning & Preprocessing
+→  Pandas
 
-→ Exploratory Data Analysis (EDA)
+→  NumPy
 
-→ Feature Engineering
+→  Matplotlib
 
-→ Model Training
+→  Scikit-learn
 
-→ Model Evaluation
+→  Streamlit
 
-→ Prediction
+### Algorithm Used
+→  Linear Regression
+→  Machine Learning Regression Model
 
-Algorithms Used:
+### How to Run the Project
 
-→ Linear Regression
-
-→ Random Forest Regressor
-
-→ Decision Tree Regressor
-
-Evaluation Metrics:
-
-→ Mean Absolute Error (MAE)
-
-→ Mean Squared Error (MSE)
-
-→ R² Score
-
-Technologies Used:
-
-→ Python
-
-→ Pandas
-
-→ NumPy
-
-→ Scikit-learn
-
-→ Matplotlib
-
-→ Seaborn
-
-→ Jupyter Notebook / Google Colab / VS code
-
-→ Streamlit / Flask (if deployed)
+##### 1. Install required libraries:
+   
+pip install pandas numpy matplotlib scikit-learn streamlit
 
 
-Results:
+##### 3. Run the Streamlit app:
 
-→ The model successfully predicts house prices based on input features and provides accurate estimates with good R² score.
+ streamlit run app.py
+
+##### 5. LINKS
+
+   streamlit link : https://house-rent-prediction-akshi.streamlit.app/
+
+   Github link : https://github.com/akshi281/HOUSE-RENT-PREDICTION
 
 
-Author:
+### Project Structure:
 
-GUDURU AKSHITHA REDDY
+→ app.py - Main Streamlit application
 
-Machine Learning Enthusiast
+→  dataset.csv - Housing dataset
+
+→  README.md - Project documentation
+
+### Output:
+
+→ The model predicts house prices based on user input features.
+
+→ It provides estimated property price using trained machine learning model.
+
+### Author:
+
+Guduru Akshitha Reddy
